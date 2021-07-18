@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>fontawesome-webfont.ttf</file>
+        <file>LogInPage.qml</file>
+        <file>CButton.qml</file>
+        <file>backend.js</file>
+        <file>UserInfoPageForm.ui.qml</file>
+        <file>virtualcard-background.png</file>
+        <file>who-horiz.svg</file>
+        <file>creditcard.ttf</file>
+        <file>MyHealthPlan-horiz.svg</file>
+        <file>SearchProvider.qml</file>
+        <file>SearchProviderForm.ui.qml</file>
+        <file>SearchCity.qml</file>
+        <file>SearchCityForm.ui.qml</file>
+        <file>SearchSpecialty.qml</file>
+        <file>SearchSpecialtyForm.ui.qml</file>
+        <file>ContactList.qml</file>
+        <file>ContactView.ui.qml</file>
+        <file>ContactModel.qml</file>
+        <file>ContactDelegate.ui.qml</file>
+        <file>SectionDelegate.ui.qml</file>
+        <file>AboutPage.qml</file>
+        <file>AboutPageForm.ui.qml</file>
+        <file>MyHealthPlan-icon.svg</file>
+        <file>NavigationMenu.qml</file>
+        <file>NavigationMenuForm.ui.qml</file>
+        <file>SelectCity.qml</file>
+        <file>SelectCityForm.ui.qml</file>
+        <file>SearchGuide.qml</file>
+        <file>SearchGuideForm.ui.qml</file>
+        <file>ContactListForm.ui.qml</file>
+        <file>UserInfoPage.qml</file>
+    </qresource>
+</RCC>
