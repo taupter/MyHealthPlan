@@ -19,23 +19,22 @@ QML_DESIGNER_IMPORT_PATH =
 include(deployment.pri)
 
 DISTFILES += \
+    android/build.gradle \
+    android/build.gradle \
+    android/res/values/libs.xml \
+    android/res/values/libs.xml \
+    android/res/xml/qtprovider_paths.xml \
+    android/res/xml/qtprovider_paths.xml \
     backend.js \
-    android/AndroidManifest.xml \
-    android/gradle/wrapper/gradle-wrapper.jar \
-    android/gradlew \
-    android/res/values/libs.xml \
-    android/build.gradle \
-    android/gradle/wrapper/gradle-wrapper.properties \
-    android/gradlew.bat \
-    android/AndroidManifest.xml \
-    android/gradle/wrapper/gradle-wrapper.jar \
-    android/gradlew \
-    android/res/values/libs.xml \
-    android/build.gradle \
-    android/gradle/wrapper/gradle-wrapper.properties \
-    android/gradlew.bat
+    android/AndroidManifest.xml
 
 ANDROID_PACKAGE_SOURCE_DIR = $$PWD/android
 
 HEADERS += \
     contactmodel.h
+
+contains(ANDROID_TARGET_ARCH,arm64-v8a) {
+    ANDROID_PACKAGE_SOURCE_DIR = \
+#    $$PWD/../MyHealthPlan.pro
+    $$PWD/android
+}

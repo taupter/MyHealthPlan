@@ -11,7 +11,6 @@
 int main(int argc, char *argv[])
 {
     QQuickStyle::setStyle("Material");
-    QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 
     QGuiApplication app(argc, argv);
     app.setOrganizationName("Taupter");
